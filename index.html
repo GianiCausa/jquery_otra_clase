@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="abs-center">
+        <form class="form">
+            <h1>Formulario</h1>
+            <br/>
+            <label>*Nombre</label>
+            <input type="text" id="nombre" class="campo"><br/>
+            <div id="mensaje1" class="errores">Dame tu nombre</div>
+
+            <label>*Correo Electronico</label>
+            <input type="text" id="email" class="campo"><br/>
+            <div id="mensaje2" class="errores">Dame un email correcto</div>
+
+            <label>*Asunto</label>
+            <input type="text" id="asunto" class="campo"><br/>
+            <div id="mensaje3" class="errores">Dime el motivo</div>
+
+            <input type="submit" id="enviar" value="Enviar Datos" class="button"><br/>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="module" src="assets/js/form.js"></script>
+</body>
+</html>
